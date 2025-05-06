@@ -46,6 +46,6 @@ if st.button('🔍 Estimasi Harga Mobil'):
     **Rp {predict_idr/1e6:,.2f} Juta**
     """)
 
-# if __name__ == "__main__":
-#    import subprocess
-#    subprocess.run(["streamlit", "run", "estimasi_mobil.py", "--server.port=8000", "--server.address=0.0.0.0"])
+if __name__ == "__main__":
+    import subprocess
+    subprocess.run(["streamlit", "run", "estimasi_mobil.py", "--server.port=8000", "--server.address=0.0.0.0"])
