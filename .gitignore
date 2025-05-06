@@ -1,3 +1,4 @@
 run_docker.sh
 dockerfile
 requirements.txt
+/data
